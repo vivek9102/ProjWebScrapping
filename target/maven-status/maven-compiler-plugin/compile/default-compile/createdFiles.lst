@@ -1,0 +1,7 @@
+com\astrotalk\FriendApplication\controller\FriendController.class
+com\astrotalk\FriendApplication\entity\ProductDescription.class
+com\astrotalk\FriendApplication\userfriendsrequest\ProductBean.class
+com\astrotalk\FriendApplication\FriendApplication.class
+com\astrotalk\FriendApplication\service\FriendsService.class
+com\astrotalk\FriendApplication\serviceImpl\FriendsServiceImpl.class
+com\astrotalk\FriendApplication\userfriendsrequest\product.class
