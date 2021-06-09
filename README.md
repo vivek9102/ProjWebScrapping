@@ -16,6 +16,17 @@ Downloads pdf with given json payload
 saved in C/Temp (Do create Temp folder in C drive)
 
 
+Alternatviely ---- As Application is hosted
+you can directly hit API on Postman
+
+http://webscrappingdocker-env.eba-7kcmka3g.us-east-2.elasticbeanstalk.com/getProductDetails
+
+with url as query parameter
+
+http://webscrappingdocker-env.eba-7kcmka3g.us-east-2.elasticbeanstalk.com/downloadPdf
+
+
+
 
 
 
