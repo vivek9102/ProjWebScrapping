@@ -1,41 +1,21 @@
-Friend Management API
+Web Scrapping App
 
-1)	 ADD NEW USER
+---Import project as Maven in eclipse or any ide of ur choice
 
-http://ec2-18-222-233-172.us-east-2.compute.amazonaws.com:8080/addUser
+--Run the Application as Java APplication/ Spring Boot 
 
-{
- "email": "a@gmail.com"
-}
+--Now Application is Hosted on 8080 port
 
+--Hit Api on postman---
+http://localhost:8080/getProductDetails
+In query parameter (add parameter --url)
 
-2)	ADD Friends
+http://localhost:8080/downloadPdf
+Downloads pdf with given json payload
 
-{
- "userfriends": ["a@gmail.com",
-                 "b@gmail.com"
-                 ]
-}
-
-3)	Delete friends
-
-{
- "email1": "a@gmail.com",
- "email2" :"b@gmail.com"
-}
-
-4)	Get FriendList of User
-
-{
- "email": "a@gmail.com"
-}
+saved in C/Temp (Do create Temp folder in C drive)
 
 
-5)	GET ALL CONNECTIONS AT Kth Distance from user.
 
-{
- "email": "a@gmail.com",
- "k":3
-}
 
-where k is distance 
+
